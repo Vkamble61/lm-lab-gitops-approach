@@ -9,7 +9,7 @@ image:
   repository: eu.gcr.io/tr-devops/devops-bookstore-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.3"
+  tag: "7.0"
   containerPort: 5000
   livenessProbe: /books
   readinessProbe: /books
